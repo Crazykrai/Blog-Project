@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-ayush:test123@cluster0.hliq5.mongodb.net/blogDB", {useNewUrlParser: true});
+mongoose.connect("Insert MongoDB Atlas Cluster Link", {useNewUrlParser: true});
 
 const postsSchema = new mongoose.Schema({
   title: String,
